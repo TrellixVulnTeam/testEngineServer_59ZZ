@@ -1,0 +1,21 @@
+{
+  "as": {
+    "1": {
+      "action": "text_input",
+      "cond_exec": "enabled",
+      "name": "SIGNUP_PATH",
+      "skipflag": "enabled",
+      "value": "xpath"
+    },
+    "stepcount": 1
+  },
+  "asd cv bnm": {
+    "1": {
+      "desc": "as",
+      "enabled": "TRUE",
+      "name": "as",
+      "testcase_id": "as"
+    },
+    "scenario_count": 1
+  }
+}

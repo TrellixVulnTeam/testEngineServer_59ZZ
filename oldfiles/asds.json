@@ -1,0 +1,21 @@
+{
+  "asds": {
+    "1": {
+      "name": "asd",
+      "enabled": "FALSE",
+      "desc": "asd",
+      "testcase_id": "asd"
+    },
+    "scenario_count": 1
+  },
+  "asd": {
+    "1": {
+      "name": "LOGIN_PATH",
+      "action": "button",
+      "value": "df",
+      "cond_exec": "enabled",
+      "skipflag": "enabled"
+    },
+    "stepcount": 1
+  }
+}

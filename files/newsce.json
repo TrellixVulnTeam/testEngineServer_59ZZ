@@ -1,0 +1,41 @@
+{
+  "new sce": {
+    "1": {
+      "name": "scen1",
+      "enabled": "TRUE",
+      "desc": "test1",
+      "testcase_id": "1234"
+    },
+    "2": {
+      "name": "test2",
+      "enabled": "TRUE",
+      "desc": "test2",
+      "testcase_id": "2345"
+    },
+    "scenario_count": 2
+  },
+  "scen1": {
+    "1": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_EMAIL_TEXT",
+      "action": "button",
+      "value": "xpath"
+    },
+    "2": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_PASSWORD_TEXT",
+      "action": "text_input",
+      "value": "xpath"
+    },
+    "stepcount": 2
+  },
+  "test2": {
+    "1": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_EMAIL_TEXT",
+      "action": "button",
+      "value": "id"
+    },
+    "stepcount": 1
+  }
+}

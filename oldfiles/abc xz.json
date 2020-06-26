@@ -1,0 +1,21 @@
+{
+  "abc xz": {
+    "1": {
+      "desc": "as",
+      "enabled": "TRUE",
+      "name": "as",
+      "testcase_id": "as"
+    },
+    "scenario_count": 1
+  },
+  "as": {
+    "1": {
+      "action": "text_input",
+      "cond_exec": "enabled",
+      "name": "EMAIL_PATH",
+      "skipflag": "enabled",
+      "value": "id"
+    },
+    "stepcount": 1
+  }
+}

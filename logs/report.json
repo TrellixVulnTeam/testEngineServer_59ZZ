@@ -1,0 +1,42 @@
+{
+  "BUY_A_TILE_SCREEN": {
+    "RELEASE": "\u00a0Android--",
+    "TEST SCENARIO": "\u00a0BUY_A_TILE_SCREEN",
+    "RELEASE DATE": "\u00a010-03-2019",
+    "BUILD": "\u00a0Release Candidate",
+    "BUY_A_TILE": {
+      "Description": "\u00a0buying a tile",
+      "Testcase ID": "\u00a0c234235",
+      "Dependent": "\u00a0None",
+      "Enabled": "\u00a0TRUE",
+      "StartTime": "\u00a02020-06-25 16:43:05.204941",
+      "EndTime": "\u00a02020-06-25 16:43:22.216404",
+      "Status": "\u00a0PASS",
+      "Message": "\u00a0Expected-buy a tile screen is displayed-Result-//android.webkit.WebView[@resource-id='com.thetileapp.tile:id/web']visibility is TRUEin the screen - NA"
+    },
+    "TOTAL TEST CASES PASSED FOR THE BATCH RUN": "\u00a01",
+    "TESTCASES FAILED FOR THE BATCH RUN": "\u00a00",
+    "DISABLED COUNT": "\u00a00",
+    "TOTAL TESTCASES EXECUTED": "\u00a01"
+  },
+  "android_sanity_scenarios": {
+    "RELEASE": "\u00a0Android--",
+    "TEST SCENARIO": "\u00a0android_sanity_scenarios",
+    "RELEASE DATE": "\u00a010-03-2019",
+    "BUILD": "\u00a0Release Candidate",
+    "SIGNUP_WITH_NEW_USER": {
+      "Description": "\u00a0Sign up as a new user",
+      "Testcase ID": "\u00a0C28202",
+      "Dependent": "\u00a0None",
+      "Enabled": "\u00a0TRUE",
+      "StartTime": "\u00a02020-06-25 16:43:47.754092",
+      "EndTime": "\u00a02020-06-25 16:45:05.063498",
+      "Status": "\u00a0FAIL",
+      "Message": "\u00a0Expected Element not Found - Timed out:<<//android.widget.TextView[@resource-id='com.thetileapp.tile:id/btn_right_textview']>>in the screen - signup"
+    },
+    "TOTAL TEST CASES PASSED FOR THE BATCH RUN": "\u00a00",
+    "TESTCASES FAILED FOR THE BATCH RUN": "\u00a01",
+    "DISABLED COUNT": "\u00a00",
+    "TOTAL TESTCASES EXECUTED": "\u00a01"
+  }
+}

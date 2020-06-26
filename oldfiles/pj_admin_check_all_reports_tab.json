@@ -1,0 +1,21 @@
+{
+  "pj_admin_check_all_reports_tab": {
+    "1": {
+      "name": "Reports",
+      "enabled": "TRUE",
+      "desc": "desc",
+      "testcase_id": "1234"
+    },
+    "scenario_count": 1
+  },
+  "Reports": {
+    "1": {
+      "screen_name": "pj_admin_reports",
+      "name": "XPATH_ADMIN_MONTHLY_WEEKLY_SALES_REPORT",
+      "action": "switch_frame",
+      "value": "promo_amount",
+      "cond_exec": "enabled"
+    },
+    "stepcount": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tile": {
+    "android": {
+      "scenarios": ["android_sanity_scenarios", "android_login_scenarios","BUY_A_TILE_SCREEN"]
+    },
+    "ios": {
+      "scenarios": ["ios_sanity_scenarios", "android_login_scenarios_ios","BUY_A_TILE_SCREEN_IOS"]
+    }
+  },
+  "pj": {
+    "android": {
+      "scenarios": ["pj_sanity_scenarios", "pj_admin_check_all_reports_tab","ADD_VEHICLE","ADD_CC"]
+    },
+    "ios": {
+      "scenarios": ["pj_ios_sanity_scenarios", "pj_admin_check_all_reports_tab_ios","ADD_VEHICLE_IOS","ADD_CC_IOS"]
+    }
+  },
+  "test1": {
+    "android": {
+      "scenarios": ["test_scenarios_1", "test_scenarios_2","test_scenarios_3"]
+    },
+    "ios": {
+      "scenarios": ["test_scenarios_4", "test_scenarios_5","test_scenarios_6"]
+    }
+  }
+}

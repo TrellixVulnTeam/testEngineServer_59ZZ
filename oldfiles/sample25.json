@@ -1,0 +1,46 @@
+{
+  "as": {
+    "1": {
+      "action": "new_user",
+      "cond_exec": "enabled",
+      "name": "PASSWORD_PATH",
+      "screen_name": "LOGIN_SCREEN",
+      "skipflag": "enabled",
+      "value": "xpath"
+    },
+    "2": {
+      "action": "fetch_text",
+      "cond_exec": "enabled",
+      "name": "ADD_LICENSE_PATH",
+      "screen_name": "ADD_YOUR_LICENSE_PLATE",
+      "value": "xpath"
+    },
+    "stepcount": 2
+  },
+  "ds": {
+    "1": {
+      "action": "text_input",
+      "cond_exec": "enabled",
+      "name": "ACCOUNT_VEHICLE_DETAILS_BTN",
+      "screen_name": "VEHICLE_SCREEN",
+      "skipflag": "enabled",
+      "value": "xpath"
+    },
+    "stepcount": 1
+  },
+  "sample25": {
+    "1": {
+      "desc": "as",
+      "enabled": "TRUE",
+      "name": "as",
+      "testcase_id": "as"
+    },
+    "2": {
+      "desc": "ds",
+      "enabled": "TRUE",
+      "name": "ds",
+      "testcase_id": "ds"
+    },
+    "scenario_count": 2
+  }
+}

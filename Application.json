@@ -1,0 +1,7 @@
+{
+    "application" : {
+            "tile": ["android", "ios"],
+            "pj": ["android", "ios"],
+            "test1": ["android", "ios"]
+    }
+}

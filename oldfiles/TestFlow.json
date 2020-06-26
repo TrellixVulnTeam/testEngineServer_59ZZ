@@ -1,0 +1,104 @@
+{
+  "Test Flow": {
+    "1": {
+      "name": "scenario1",
+      "enabled": "TRUE",
+      "desc": "scen1 desc",
+      "testcase_id": "1234"
+    },
+    "2": {
+      "name": "scenario2",
+      "enabled": "FALSE",
+      "desc": "scen2 desc",
+      "testcase_id": "4321"
+    },
+    "3": {
+      "name": "scenario3",
+      "enabled": "TRUE",
+      "desc": "scen3",
+      "testcase_id": "6789"
+    },
+    "scenario_count": 3
+  },
+  "scenario1": {
+    "1": {
+      "screen_name": "WELCOME_SCREEN",
+      "name": "LOGIN_PATH",
+      "action": "button",
+      "value": "id",
+      "cond_exec": "enabled"
+    },
+    "2": {
+      "screen_name": "SIGNUP_PATH",
+      "name": "XPATH_ET_PASSWORD",
+      "action": "new_user",
+      "value": "name",
+      "skipflag": "enabled"
+    },
+    "3": {
+      "screen_name": "VERIFICATION_SCREEN",
+      "name": "VERIFY_CODE",
+      "action": "expect",
+      "value": "id",
+      "condition": "isDisplayed",
+      "value1": "test1",
+      "value2": "test2",
+      "expect_string": "expect1"
+    },
+    "stepcount": 3
+  },
+  "scenario2": {
+    "1": {
+      "screen_name": "SIGNUP_PATH",
+      "name": "XPATH_ET_EMAIL",
+      "action": "new_user",
+      "value": "wrong_password"
+    },
+    "2": {
+      "screen_name": "VEHICLE_SCREEN",
+      "name": "ACCOUNT_VEHICLE_DETAILS_BTN",
+      "action": "new_user",
+      "value": "username",
+      "skipflag": "enabled"
+    },
+    "3": {
+      "screen_name": "VERIFICATION_SCREEN",
+      "name": "VERIFY_CODE",
+      "action": "new_user",
+      "value": "username",
+      "cond_exec": "enabled"
+    },
+    "4": {
+      "screen_name": "SIGNUP_PATH",
+      "name": "XPATH_ET_PASSWORD",
+      "action": "expect",
+      "value": "password",
+      "condition": "isDisplayed",
+      "value1": "val4",
+      "value2": "val5",
+      "expect_string": "expec5"
+    },
+    "stepcount": 4
+  },
+  "scenario3": {
+    "1": {
+      "screen_name": "LOGIN_SCREEN",
+      "name": "SIGN_IN_PATH",
+      "action": "text_input",
+      "value": "name",
+      "cond_exec": "enabled",
+      "skipflag": "enabled"
+    },
+    "2": {
+      "screen_name": "ADD_YOUR_LICENSE_PLATE",
+      "name": "SKIP_THIS",
+      "action": "expect",
+      "value": "id",
+      "condition": "isDisplayed",
+      "value1": "sd",
+      "value2": "sd",
+      "expect_string": "sd"
+    },
+    "stepcount": 2
+  }
+}

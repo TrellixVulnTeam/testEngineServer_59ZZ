@@ -1,0 +1,61 @@
+{
+  "android_login_scenarios": {
+    "1": {
+      "name": "LOGIN_WITH_REGISTERED_USER",
+      "enabled": "FALSE",
+      "desc": "Login with a registered username",
+      "testcase_id": "C28228"
+    },
+    "2": {
+      "name": "LOGIN_WRONG_PASSWORD_STEPS_NUX",
+      "enabled": "TRUE",
+      "desc": "Login with a wrong password",
+      "testcase_id": "C28227"
+    },
+    "scenario_count": 2
+  },
+  "LOGIN_WITH_REGISTERED_USER": {
+    "1": {
+      "name": "SIGN_IN_BTN",
+      "action": "button",
+      "value": "xpath"
+    },
+    "2": {
+      "name": "XPATH_ET_PASSWORD",
+      "action": "securetext_input",
+      "value": "password"
+    },
+    "stepcount": 2
+  },
+  "LOGIN_WRONG_PASSWORD_STEPS_NUX": {
+    "1": {
+      "name": "XPATH_ET_EMAIL",
+      "action": "expect",
+      "value": "xpath",
+      "condition": "isDisplayed",
+      "value1": "XPATH_BTN_SETTINGS",
+      "value2": "TRUE",
+      "expect_string": "Settings button is visible"
+    },
+    "2": {
+      "name": "VEREFICATION_FIELD",
+      "action": "text_input",
+      "value": "xpath",
+      "cond_exec": "enabled"
+    },
+    "3": {
+      "name": "ADD_LICENSE_PATH",
+      "action": "button",
+      "value": "xpath",
+      "skipflag": "enabled"
+    },
+    "4": {
+      "name": "CREDIT_CARD_NUM_ET",
+      "action": "text_input",
+      "value": "xpath",
+      "cond_exec": "enabled",
+      "skipflag": "enabled"
+    },
+    "stepcount": 4
+  }
+}

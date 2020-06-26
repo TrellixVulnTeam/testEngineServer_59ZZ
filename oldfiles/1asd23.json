@@ -1,0 +1,21 @@
+{
+  "1asd23": {
+    "1": {
+      "desc": "as",
+      "enabled": "TRUE",
+      "name": "as",
+      "testcase_id": "as"
+    },
+    "scenario_count": 1
+  },
+  "as": {
+    "1": {
+      "action": "button",
+      "cond_exec": "enabled",
+      "name": "LOGIN_PATH",
+      "skipflag": "enabled",
+      "value": "xpath"
+    },
+    "stepcount": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "android_sanity_scenarios": {
+    "1": {
+      "name": "SIGNUP_WITH_NEW_USER",
+      "enabled": "TRUE",
+      "desc": "signup new user",
+      "testcase_id": "C2828218"
+    },
+    "scenario_count": 1
+  },
+  "SIGNUP_WITH_NEW_USER": {
+    "1": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_EMAIL_TEXT",
+      "action": "button",
+      "value": "xpath"
+    },
+    "2": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_PASSWORD_TEXT",
+      "action": "button",
+      "value": "xpath"
+    },
+    "3": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGN_IN_BUTTON",
+      "action": "button",
+      "value": "xpath"
+    },
+    "stepcount": 3
+  }
+}

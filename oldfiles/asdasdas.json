@@ -1,0 +1,133 @@
+{
+  "scenarios": {
+    "asdasdas": {
+      "1": {
+        "name": "fghfg",
+        "enabled": "TRUE",
+        "desc": "dfg",
+        "testcase_id": "dfg"
+      },
+      "2": {
+        "name": "kkkk",
+        "enabled": "FALSE",
+        "desc": "sss",
+        "testcase_id": "ddd"
+      },
+      "3": {
+        "name": "jjjjjj",
+        "enabled": "TRUE",
+        "desc": "jjjj",
+        "testcase_id": "jjjjj"
+      },
+      "4": {
+        "name": "mmmmm",
+        "enabled": "TRUE",
+        "desc": "mmmm",
+        "testcase_id": "mmmmm"
+      }
+    }
+  },
+  "steps": {
+    "fghfg": {
+      "1": {
+        "screen_name": "pj_admin_reports",
+        "name": "XPATH_ADMIN_ENTRY_STATISTICS_REPORT",
+        "action": "switch_frame",
+        "value": "time_filter",
+        "cond_exec": "enabled"
+      }
+    },
+    "kkkk": {
+      "1": {
+        "screen_name": "pj_rate_paid_breakdown",
+        "name": "XPATH_SRP_MONDAY",
+        "action": "new_tab",
+        "value": "time_filter1",
+        "cond_exec": "enabled"
+      },
+      "2": {
+        "screen_name": "pj_admin_page",
+        "name": "XPATH_ADMIN_SESSION_ENTRY",
+        "action": "switch_frame",
+        "value": "operator",
+        "skipflag": "enabled"
+      },
+      "3": {
+        "screen_name": "pj_admin_page",
+        "name": "XPATH_ADMIN_SESSION_ENTRY",
+        "action": "new_tab",
+        "value": "operator1",
+        "cond_exec": "enabled"
+      }
+    },
+    "jjjjjj": {
+      "1": {
+        "screen_name": "pj_revenue_report",
+        "name": "XPATH_SWITCH_IFRAME1",
+        "action": "new_tab",
+        "value": "time_filter2",
+        "cond_exec": "enabled",
+        "skipflag": "enabled"
+      },
+      "2": {
+        "screen_name": "pj_admin_page",
+        "name": "XPATH_ADMIN_SESSION_DROPDOWN",
+        "action": "close_tab",
+        "value": "report_type"
+      },
+      "3": {
+        "screen_name": "pj_admin_reports",
+        "name": "XPATH_ADMIN_PAYMENT_METHOD_REPORT",
+        "action": "click",
+        "value": "username_sign",
+        "skipflag": "enabled"
+      },
+      "4": {
+        "screen_name": "pj_revenue_report",
+        "name": "XPATH_OPERATOR_CLICK_SEARCH",
+        "action": "new_tab",
+        "value": "time_filter",
+        "cond_exec": "enabled",
+        "skipflag": "enabled"
+      }
+    },
+    "mmmmm": {
+      "1": {
+        "screen_name": "pj_landingpage",
+        "name": "XPATH_ADMIN_SESSION_SAVE",
+        "action": "switch_back",
+        "value": "operator_1550",
+        "cond_exec": "enabled",
+        "skipflag": "enabled"
+      },
+      "2": {
+        "screen_name": "pj_admin_page",
+        "name": "XPATH_ADMIN_SESSION_SAVE",
+        "action": "switch_frame",
+        "value": "username_sign",
+        "cond_exec": "enabled"
+      },
+      "3": {
+        "screen_name": "pj_rate_paid_breakdown",
+        "name": "XPATH_SRP_TUESDAY",
+        "action": "switch_frame",
+        "value": "password_sign"
+      },
+      "4": {
+        "screen_name": "pj_admin_reports",
+        "name": "XPATH_ADMIN_Frequency_Analysis_REPORT",
+        "action": "switch_back",
+        "value": "option",
+        "skipflag": "enabled"
+      },
+      "5": {
+        "screen_name": "pj_landingpage",
+        "name": "XPATH_ADMIN_PROMO_AMOUNT",
+        "action": "dropdown",
+        "value": "admin_username",
+        "cond_exec": "enabled",
+        "skipflag": "enabled"
+      }
+    }
+  }
+}

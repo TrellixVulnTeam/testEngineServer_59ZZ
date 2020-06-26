@@ -1,0 +1,43 @@
+{
+  "android test": {
+    "1": {
+      "name": "Sce 1",
+      "enabled": "TRUE",
+      "desc": "sce 1 desc",
+      "testcase_id": "sce testc1"
+    },
+    "2": {
+      "name": "sce2",
+      "enabled": "FALSE",
+      "desc": "sce2 desc",
+      "testcase_id": "sce tesc2"
+    },
+    "scenario_count": 2
+  },
+  "Sce 1": {
+    "1": {
+      "name": "step1",
+      "action": "action1",
+      "value": "value1"
+    },
+    "2": {
+      "name": "step2",
+      "action": "action2",
+      "value": "value2"
+    },
+    "stepcount": 2
+  },
+  "sce2": {
+    "1": {
+      "name": "testa",
+      "action": "testb",
+      "value": "testc"
+    },
+    "2": {
+      "name": "testd",
+      "action": "teste",
+      "value": "testf"
+    },
+    "stepcount": 2
+  }
+}

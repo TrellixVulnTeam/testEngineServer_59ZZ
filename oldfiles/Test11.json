@@ -1,0 +1,69 @@
+{
+  "Test11": {
+    "1": {
+      "name": "s1",
+      "enabled": "TRUE",
+      "desc": "s1",
+      "testcase_id": "s1"
+    },
+    "2": {
+      "name": "s2",
+      "enabled": "FALSE",
+      "desc": "s2",
+      "testcase_id": "s2"
+    },
+    "scenario_count": 2
+  },
+  "s1": {
+    "1": {
+      "name": "st1",
+      "action": "button",
+      "value": "st1",
+      "cond_exec": "enabled"
+    },
+    "2": {
+      "name": "st2",
+      "action": "button",
+      "value": "st2"
+    },
+    "3": {
+      "name": "st3",
+      "action": "expect",
+      "value": "st3",
+      "condition": "isDisplayed",
+      "value1": "st3",
+      "value2": "st3",
+      "expect_string": "st3"
+    },
+    "4": {
+      "name": "st4",
+      "action": "text_input",
+      "value": "st2",
+      "cond_exec": "enabled"
+    },
+    "stepcount": 4
+  },
+  "s2": {
+    "1": {
+      "name": "s2st1",
+      "action": "button",
+      "value": "ss"
+    },
+    "2": {
+      "name": "s2st2",
+      "action": "expect",
+      "value": "ss1",
+      "condition": "isDisplayed",
+      "value1": "ss1",
+      "value2": "ss1",
+      "expect_string": "ss1"
+    },
+    "3": {
+      "name": "s2st3",
+      "action": "text_input",
+      "value": "ss2",
+      "cond_exec": "enabled"
+    },
+    "stepcount": 3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "asd": {
+    "1": {
+      "name": "as",
+      "enabled": "TRUE",
+      "desc": "as",
+      "testcase_id": "as"
+    },
+    "scenario_count": 1
+  },
+  "as": {
+    "1": {
+      "screen_name": "SIGN_IN_SCREEN",
+      "name": "SIGNIN_PASSWORD_TEXT",
+      "action": "button",
+      "value": "xpath",
+      "cond_exec": "enabled",
+      "skipflag": "enabled"
+    },
+    "stepcount": 1
+  }
+}

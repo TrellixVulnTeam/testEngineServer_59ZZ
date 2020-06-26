@@ -1,0 +1,29 @@
+{
+  "as": {
+    "1": {
+      "action": "button",
+      "name": "LOGIN_PATH",
+      "skipflag": "enabled",
+      "value": "xpath"
+    },
+    "stepcount": 1
+  },
+  "asd": {
+    "1": {
+      "desc": "as",
+      "enabled": "FALSE",
+      "name": "as",
+      "testcase_id": "as"
+    },
+    "scenario_count": 1
+  },
+  "asd xyz": {
+    "1": {
+      "desc": "as",
+      "enabled": "FALSE",
+      "name": "as",
+      "testcase_id": "as"
+    },
+    "scenario_count": 1
+  }
+}

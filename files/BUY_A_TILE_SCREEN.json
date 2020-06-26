@@ -1,0 +1,42 @@
+{
+  "BUY_A_TILE_SCREEN": {
+    "1": {
+      "name": "BUY_A_TILE",
+      "enabled": "TRUE",
+      "desc": "buying a tile",
+      "testcase_id": "c234235"
+    },
+    "scenario_count": 1
+  },
+  "BUY_A_TILE": {
+    "1": {
+      "screen_name": "WELCOME_SCREEN",
+      "name": "BUY_A_TILE_BTN",
+      "action": "button",
+      "value": "xpath"
+    },
+    "2": {
+      "screen_name": "WELCOME_SCREEN",
+      "name": "BUY_A_TILE_SCREEN",
+      "action": "expect",
+      "value": "xpath",
+      "condition": "isDisplayed",
+      "value1": "BUY_A_TILE_SCREEN",
+      "value2": "TRUE",
+      "expect_string": "buy a tile screen is displayed"
+    },
+    "3": {
+      "screen_name": "WELCOME_SCREEN",
+      "name": "XPATH_BTN_BACK",
+      "action": "button",
+      "value": "xpath"
+    },
+    "4": {
+      "screen_name": "WELCOME_SCREEN",
+      "name": "CLOSE_WINDOW_BTN",
+      "action": "button",
+      "value": "xpath"
+    },
+    "stepcount": 4
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "android_test1": {
+    "1": {
+      "desc": "sample desc",
+      "enabled": "TRUE",
+      "name": "login_wrongpassword",
+      "testcase_id": "1234"
+    },
+    "2": {
+      "desc": "s1",
+      "enabled": "TRUE",
+      "name": "sample2",
+      "testcase_id": "s2"
+    },
+    "scenario_count": 2
+  },
+  "login_wrongpassword": {
+    "1": {
+      "action": "button",
+      "cond_exec": "enabled",
+      "name": "SIGN_IN_PATH",
+      "skipflag": "enabled",
+      "value": "xpath"
+    },
+    "stepcount": 1
+  },
+  "sample2": {
+    "1": {
+      "action": "expect",
+      "condition": "isDisplayed",
+      "expect_string": "sd",
+      "name": "VERIFY_CODE",
+      "value": "username",
+      "value1": "asd",
+      "value2": "as"
+    },
+    "stepcount": 1
+  }
+}

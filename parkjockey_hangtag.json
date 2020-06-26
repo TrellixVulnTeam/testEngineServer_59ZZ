@@ -1,0 +1,248 @@
+{
+  "parkjockey_hangtag": {
+    "android": {
+      "screenname": {
+        "WELCOME_SCREEN": [
+          "LOGIN_PATH",
+          "SIGNUP_PATH"
+        ],
+        "LOGIN_SCREEN": [
+          "EMAIL_PATH",
+          "PASSWORD_PATH",
+          "SIGN_IN_PATH",
+          "FORGOT_PWD_PATH",
+          "VERIFY_INVALID_CREDENTIALS"
+        ],
+        "SIGNUP_PATH": [
+          "XPATH_ET_EMAIL",
+          "XPATH_ET_PASSWORD",
+          "XPATH_ET_PHONE",
+          "XPATH_CHECKBOX",
+          "XPATH_BTN_SIGNUP",
+          "SIGN_IN_BTN",
+          "TERMS_OF_USE"
+        ],
+        "VERIFICATION_SCREEN": [
+          "VEREFICATION_FIELD",
+          "VERIFY_CODE",
+          "SEND_NEW_CODE",
+          "MY_PHONE_IS_NOT_LNK"
+        ],
+        "ADD_YOUR_LICENSE_PLATE": [
+          "ADD_LICENSE_PATH",
+          "LICENSE_CREATED_PATH",
+          "SKIP_THIS"
+        ],
+        "ADD_YOUR_CREDIT_CARD": [
+          "SKIP_THIS_CREDIT_CARD",
+          "CREDIT_CARD_NUM_ET",
+          "CREDIT_CARD_NAME_ET",
+          "CREDIT_CARD_CVV_ET",
+          "CREDIT_CARD_EXP_MONTH_SPIN",
+          "CREDIT_CARD_EXP_YEAR_SPIN",
+          "ADD_CREDIT_CARD_BTN"
+        ],
+        "ACCOUNT": [
+          "ACCOUNT_VEHICLES_BTN",
+          "CHANGE_PWD_PATH",
+          "CHANGE_MOBILE_NUM_PATH",
+          "EDIT_EMAIL_PATH",
+          "PURCHASE_HISTORY",
+          "PARKING_PERMITS",
+          "CREDIT_CARDS",
+          "TERMS_AND_COND",
+          "PRIVACY_POLICY",
+          "HELP"
+        ],
+        "VEHICLE_SCREEN": [
+          "ACCOUNT_VEHICLE_DETAILS_BTN"
+        ],
+        "CHANGE_EMAIL": [
+          "CHANGE_EMAIL_BNT_PATH",
+          "NEW_EMAIL_PATH",
+          "CHANGE_NEW_EMAIL_BNT_PATH",
+          "VERIFY_CHANGE_EMAIL"
+        ],
+        "CHANGE_MOBILE_NUMBER": [
+          "GO_TO_HELP_PATH",
+          "BACK_BTN_PATH"
+        ]
+      }
+    },
+    "ios": {
+      "screenname": {
+        "STARTUP_SCREEN": [
+          "SIGNUP_BUTTON",
+          "LOGIN_BUTTON"
+        ],
+        "LOGIN_SCREEN": [
+          "END_USER_AGREEMENT",
+          "SIGNUP_PATH",
+          "EMAIL_PATH",
+          "PASSWORD_PATH",
+          "SIGN_IN_PATH",
+          "FORGOT_PWD_PATH"
+        ],
+        "SIGNUP_SCREEN": [
+          "SIGNUP_EMAIL",
+          "SIGNUP_PASSWORD",
+          "SIGNUP_PHONE",
+          "SIGNUP_CHECKBOX",
+          "CREATE_ACCOUNT",
+          "SIGN_IN_BTN",
+          "TERMS_OF_USE"
+        ],
+        "VERIFICATION_SCREEN": [
+          "VEREFICATION_FIELD",
+          "VEREFICATION_NOTIFICATION",
+          "VERIFY_CODE",
+          "SEND_NEW_CODE",
+          "CHANGE_PHONE_NUMBER"
+        ],
+        "ADD_YOUR_LICENSE_PLATE": [
+          "ADD_LICENSE_NAME",
+          "LICENSE_CREATED_PLATE",
+          "SKIP_THIS"
+        ],
+        "ADD_YOUR_CREDIT_CARD": [
+          "SKIP_THIS_CREDIT_CARD",
+          "CREDIT_CARD_NUM_ET",
+          "CREDIT_CARD_NAME_ET",
+          "CREDIT_CARD_CVV_ET",
+          "CREDIT_CARD_EXP_MONTH_SPIN",
+          "CREDIT_CARD_EXP_YEAR_SPIN\"",
+          "ADD_CREDIT_CARD_BTN"
+        ],
+        "ACCOUNT": [
+          "ACCOUNT_VEHICLES_BTN",
+          "CHANGE_PWD_PATH",
+          "CHANGE_MOBILE_NUM_PATH",
+          "EDIT_EMAIL_PATH",
+          "PURCHASE_HISTORY",
+          "PARKING_PERMITS",
+          "CREDIT_CARDS",
+          "TERMS_AND_COND",
+          "PRIVACY_POLICY",
+          "HELP"
+        ],
+        "VEHICLE_SCREEN": [
+          "ACCOUNT_VEHICLE_DETAILS_BTN",
+          "ACCOUNT_CC_BTN",
+          "ACCOUNT_CC_DETAILS_BTN",
+          "ADD_CC_BTN"
+        ],
+        "CHANGE_EMAIL": [
+          "CHANGE_EMAIL_BNT_PATH",
+          "NEW_EMAIL_PATH",
+          "CHANGE_NEW_EMAIL_BNT_PATH",
+          "VERIFY_CHANGE_EMAIL"
+        ],
+        "CHANGE_MOBILE_NUMBER": [
+          "GO_TO_HELP_PATH",
+          "BACK_BTN_PATH"
+        ]
+      }
+    },
+    "website": {
+      "screenname": {
+        "WELCOME_SCREEN": [
+          "LOGIN_PATH",
+          "SIGNUP_PATH"
+        ],
+        "LOGIN_SCREEN": [
+          "EMAIL_PATH",
+          "PASSWORD_PATH",
+          "SIGN_IN_PATH",
+          "FORGOT_PWD_PATH",
+          "VERIFY_INVALID_CREDENTIALS"
+        ],
+        "SIGNUP_PATH": [
+          "XPATH_ET_EMAIL",
+          "XPATH_ET_PASSWORD",
+          "XPATH_ET_PHONE",
+          "XPATH_CHECKBOX",
+          "XPATH_BTN_SIGNUP",
+          "SIGN_IN_BTN",
+          "TERMS_OF_USE"
+        ],
+        "VERIFICATION_SCREEN": [
+          "VEREFICATION_FIELD",
+          "VERIFY_CODE",
+          "SEND_NEW_CODE",
+          "MY_PHONE_IS_NOT_LNK"
+        ],
+        "ADD_YOUR_LICENSE_PLATE": [
+          "ADD_LICENSE_PATH",
+          "LICENSE_CREATED_PATH",
+          "SKIP_THIS"
+        ],
+        "ADD_YOUR_CREDIT_CARD": [
+          "SKIP_THIS_CREDIT_CARD",
+          "CREDIT_CARD_NUM_ET",
+          "CREDIT_CARD_NAME_ET",
+          "CREDIT_CARD_CVV_ET",
+          "CREDIT_CARD_EXP_MONTH_SPIN",
+          "CREDIT_CARD_EXP_YEAR_SPIN",
+          "ADD_CREDIT_CARD_BTN"
+        ],
+        "ACCOUNT": [
+          "ACCOUNT_VEHICLES_BTN",
+          "CHANGE_PWD_PATH",
+          "CHANGE_MOBILE_NUM_PATH",
+          "EDIT_EMAIL_PATH",
+          "PURCHASE_HISTORY",
+          "PARKING_PERMITS",
+          "CREDIT_CARDS",
+          "TERMS_AND_COND",
+          "PRIVACY_POLICY",
+          "HELP"
+        ],
+        "VEHICLE_SCREEN": [
+          "ACCOUNT_VEHICLE_DETAILS_BTN"
+        ],
+        "CHANGE_EMAIL": [
+          "CHANGE_EMAIL_BNT_PATH",
+          "NEW_EMAIL_PATH",
+          "CHANGE_NEW_EMAIL_BNT_PATH",
+          "VERIFY_CHANGE_EMAIL"
+        ],
+        "CHANGE_MOBILE_NUMBER": [
+          "GO_TO_HELP_PATH",
+          "BACK_BTN_PATH"
+        ]
+      }
+    },
+    "Action": [
+      "button",
+      "expect",
+      "new_user",
+      "text_input",
+      "username_text_input",
+      "securetext_input",
+      "fetch_text",
+      "email_text_input",
+      "toggle",
+      "phone",
+      "verify_code",
+      "drop_down",
+      "drop_down_max",
+      "horizontal_swipe",
+      "vertical_swipe",
+      "camera"
+    ],
+    "value": [
+      "xpath",
+      "id",
+      "name",
+      "username",
+      "password",
+      "incorrect_password",
+      "new_user_password",
+      "wrong_username",
+      "wrong_password",
+      "Lot_name",
+      "change_email",
+      "previous_email"
+    ]
+  }
+}

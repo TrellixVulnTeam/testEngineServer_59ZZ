@@ -1,0 +1,508 @@
+{
+  "tile": {
+    "android": {
+      "screenname": {
+        "WELCOME_SCREEN": [
+          "SIGN_IN_HOME_BUTTON",
+          "GET_STARTED_BUTTON",
+          "BUY_TILE_BUTTON",
+          "BUY_TILE_BACK_BUTTON",
+          "BUY_TILE_CLOSE_BUTTON",
+          "XPATH_BTN_BACK",
+          "BUY_A_TILE_SCREEN",
+          "CLOSE_WINDOW_BTN"
+        ],
+        "SIGN_IN_SCREEN": [
+          "CONTINUE_WITH_FACEBOOK_BUTTON",
+          "SIGNIN_EMAIL_TEXT",
+          "SIGNIN_PASSWORD_TEXT",
+          "SIGN_IN_BUTTON",
+          "EYE_ICON_BUTTON",
+          "FORGOT_PASSWORD_BUTTON",
+          "FORGOT_PASSWORD_EMAIL_TEXT",
+          "FORGOT_PASSWORD_SEND_BUTTON",
+          "FORGOT_PASSWORD_BACK_BUTTON",
+          "SIGN_IN_BACK_BUTTON"
+        ],
+        "ANDROID_PERMISSION_SCREEN": [
+          "BLUETOOTH_ALLOW_BUTTON",
+          "LOCATION_ALLOW_BUTTON",
+          "LOCATION_ALWAYS_BUTTON",
+          "PERMISSION_NEXT_BUTTON"
+        ],
+        "SIGN_UP_SCREEN": [
+          "SIGNUP_EMAIL_TEXT",
+          "SIGNUP_PASSWORD_TEXT",
+          "POLICY_CHECKBOX_BUTTON",
+          "MARKETING_CHECKBOX_BUTTON",
+          "TERMS_OF_SERVICES_BUTTON",
+          "PRIVACY_POLICY_BUTTON",
+          "SIGN_UP_BUTTON",
+          "EYE_ICON_BUTTON",
+          "SIGN_IN_LINK"
+        ],
+        "ADD_A_DEVICE_SCREEN": [
+          "I_DONT_HAVE_DEVICE_BUTTON",
+          "BUY_A_TILE_BUTTON",
+          "I_DONT_HAVE_DEVICE_BACK_BUTTON",
+          "TILE_BUTTON",
+          "BOSE_BUTTON",
+          "HP_BUTTON",
+          "PLANTRONICS_BUTTON",
+          "SENNHEISER_BUTTON",
+          "SKULLCANDY_BUTTON",
+          "KEYSMART_BUTTON",
+          "HERSHEL_BUTTON",
+          "NOMAD_BUTTON",
+          "FOSSIL_BUTTON",
+          "BIANCA_BUTTON"
+        ],
+        "SELECT_A_DEVICE_SCREEN": [
+          "TILE_PRODUCT_BUTTON",
+          "STICKER_BUTTON"
+        ],
+        "VERIFICATION_SCREEN": [
+          "CODE_TXT",
+          "DON'T_HAVE_CODE_BUTTON",
+          "THIS_IS_NOT_MY_EMAIL_BUTTON",
+          "DIDN'T_RECEIVE_EMAIL_BUTTON",
+          "VERIFICATION_SKIP"
+        ],
+        "SMARTALERT_PERMISSION_SCREEN": [
+          "PERMISSION_CHANGE_BUTTON",
+          "BLUETOOTH_BUTTON",
+          "LOCATION_BUTTON",
+          "NOTIFICATONS_BUTTON"
+        ],
+        "TILE_CARD_VIEW_SCREEN": [
+          "MAP_VIEW_BUTTON",
+          "NOTIFICATION_BUTTON",
+          "ADD_DEVICE_BUTTON",
+          "SETTINGS_BUTTON"
+        ],
+        "SETTINGS_SCREEN": [
+          "FULL_NAME_TEXT",
+          "CHANGE_PASSWORD_BUTTON",
+          "UPGRADE_TO_TILE_PREMIUM_BUTTON",
+          "TILE_PREMIUM_FAQ_BUTTON",
+          "MANAGE_TILES_BUTTON",
+          "MANAGE_LOCATIONS_BUTTON",
+          "SMARTALERT_PERMISSIONS_BUTTON",
+          "MANAGE_HIDDEN_TILES_BUTTON",
+          "SHOW_PHONE_TILE_BUTTON",
+          "GET_FREE_TILES_BUTTON",
+          "HELP_CENTER",
+          "SEND_APP_DIAGNOSTIC_REPORT",
+          "CONTACT_CUSTOMER_CARE",
+          "PRIVACY_POLICY2_BUTTON",
+          "TERMS_OF_SERVICES2_BUTTON",
+          "CREDITS_BUTTON",
+          "SETTINGS_BACK_BUTTON",
+          "LOGOUT_BUTTON"
+        ],
+        "PASSWORD_SCREEN": [
+          "OLD_PASSWORD_TEXT",
+          "NEW_PASSWORD_TEXT",
+          "PASSWORD_CANCEL_BUTTON",
+          "PASSWORD_CHANGE_BUTTON"
+        ],
+        "OBJECT_DETAILS_SCREEN": [
+          "NOTIFY_WHEN_FOUND_BUTTON",
+          "FIND_BUTTON",
+          "LOCATION_HISTORY_BUTTON",
+          "SMART_ALERT_BUTTON",
+          "UNLIMITED_SHARING_BUTTON",
+          "FIND_MY_PHONE_BUTTON",
+          "RINGTONE_BUTTON",
+          "TILE_DEFAULT_BUTTON",
+          "MORE_OPTIONS_BUTTON",
+          "HELP_BUTTON",
+          "SMARTALERT_SETUP_BUTTON",
+          "OBJECTDETAIL_BACK_BUTTON"
+        ],
+        "LOCATION_HISTORY_SCREEN": [
+          "LOCATION_HISORY_BACK_BUTTON",
+          "VIEW_30_LOCATION_BUTTON"
+        ],
+        "SMART_ALERT_SCREEN": [
+          "UNLOCK_TILE_PREMIUM_BUTTON",
+          "UNLOCK_PREMIUM_CLOSE_BUTTON",
+          "SMART_ALERT_TOOGLE_BUTTON",
+          "SMART_ALERT_BACK_BUTTTON",
+          "ADD_LOCATION_BUTTON",
+          "SMARTALERT_ALERT_BUTTON",
+          "SMART_DONT_ALERT_BUTTON",
+          "SMART_ALERT_EDIT_BUTTON"
+        ],
+        "UNLIMITED_SHARING_SCREEN": [
+          "SHARING_EMAIL_TEXT",
+          "SHARE_BUTTON",
+          "SHARE_CLOSE_BUTTON",
+          "SHARE_WITH_CONTACTS_BUTTON",
+          "SHARE_A_LINK_BUTTON",
+          "SHARE_BACK_BUTTON"
+        ],
+        "MULTIPLE_SHARING_SCREEN": [
+          "INVITE_SOMEONE_TO_SHARE_BUTTON",
+          "MULTIPLE_SHARE_BACK_BUTTON"
+        ],
+        "FIND_YOUR_PHONE_SCREEN": [
+          "FIND_MY_PHONE_TOGGLE_BUTTON",
+          "FIND_MY_PHONE_BACK_BUTTON"
+        ],
+        "RINGTONE_SCREEN": [
+          "RINGTONE_SAVE_BUTTON",
+          "SKIPPING_STONE_BUTTON",
+          "COUNTRY_BUTTON",
+          "JUMPING_BEANS_BUTTONS",
+          "TO_AND_FRO_BUTTON",
+          "BIONIC_BRIDIE_BUTTON",
+          "THE_CLASSIC_CALL_BUTTON",
+          "PEP_IN_YOUR_STEP_BUTTON",
+          "BLUE_FOR_SLIM_BUTTON",
+          "RINGTONE_BACK_BUTTON"
+        ],
+        "TILE_DEFAULT_VOLUME_SCREEN": [
+          "MUTE_BUTTON",
+          "NORMAL_BUTTON",
+          "LOUD_BUTTON"
+        ],
+        "MORE_OPTION_SCREEN": [
+          "TILE_NAME_TEXT",
+          "CHANGE_PHOTO_BUTTON",
+          "CATEGORY_BUTTON",
+          "REPLACE_BUTTON",
+          "TRANSFER_BUTTON",
+          "HIDE_BUTTON"
+        ],
+        "CHANGE_PHOTO_SCREEN": [
+          "PHOTO_ALLOW_BUTTON",
+          "TAKE_PHOTO_BUTTON",
+          "CHOOSE_EXISTING_BUTTON",
+          "PHOTO_FOLDER_BUTTON",
+          "REMOVE_PHOTO_BUTTON",
+          "CHOOSE_EXISTING_BUTTON"
+        ],
+        "REPLACE_SCREEN": [
+          "REPLACE_CANCEL_BUTTON",
+          "REPLACE_CONTINUE_BUTTON"
+        ],
+        "TRANSER-SCREEN": [
+          "TRANSFER_EMAIL_TEXT",
+          "TRANSFER_CONFIRM_EMAIL_TEXT",
+          "TRANSFER_SUBMIT_BUTTON",
+          "TRANSFER_TILE_BACK_BUTTON"
+        ],
+        "MANAGE_HIDDEN_SCREEN": [
+          "UNHIDE_TILE_BUTTON",
+          "UNHIDE_BACK_BUTTON"
+        ],
+        "APP_PROMO_CARD_SCREEN": [
+          "REMIND_ME_LATER_BUTTON",
+          "DISMISS_BUTTON"
+        ],
+        "MANAGE_TILE_SCREEN": [
+          "TILE_TOGGLE_BUTTON",
+          "MANAGE_TILE_BACK_BUTTON"
+        ],
+        "ADD_ONE_LOCATION_SCREEN": [
+          "ADD_NEW_LOCATION_BUTTON",
+          "LOCATION_NAME_TEXT",
+          "LOCATION_NEXT_BUTTON",
+          "LOCATION_NEW_NAME_TEXT",
+          "LOCATION_CANCEL_BUTTON",
+          "LOCATION_NEW_NEXT",
+          "ADD_ANOTHER_LOCATION_BUTTON",
+          "LOCATION_DONE_BUTTON",
+          "LOCATION_CLOSE_BUTTON"
+        ],
+        "ACTIVATE_TILE_SCREEN": [
+          "ACTIVATE_NEXT_BUTTON",
+          "ACTIVATE_BACK_BUTTON",
+          "ACTIVATE_NOT_WORKING_BUTTON",
+          "ACTIVATE_TRY_AGAIN_BUTTON",
+          "ACTIVATE_CANCEL_BUTTON",
+          "ACTIVATE_YES_ACTIVATE_TILE_BUTTON",
+          "ACTIVATE_NO_THIS_IS_NOT_MY_DEVICE_BUTTON",
+          "ACTIVATE_FIND_BUTTON",
+          "ACTIVATE_DONE_BUTTON",
+          "ACTIVATE_SKIP_BUTTON"
+        ],
+        "CHOOSE_A_CATEGORY_SCREEN": [
+          "CHOOSE_WALLET_BUTTON",
+          "CHOOSE_PURSE_BUTTON",
+          "CHOOSE_PHONE_BUTTON",
+          "CHOOSE_TOY_BUTTON",
+          "CHOOSE_DOG_BUTTON",
+          "CHOOSE_CAT_BUTTON",
+          "CHOOSE_CAR_BUTTON",
+          "CHOOSE_BIKE_BUTTON",
+          "CHOOSE_BACKPACK_BUTTON",
+          "CHOOSE_ID_BADGE_BUTTON",
+          "CHOOSE_BRIEFCASE_BUTTON",
+          "CHOOSE_LUGGAGE_BUTTON",
+          "CHOOSE_PASSPORT_BUTTON",
+          "CHOOSE_REMOTE_BUTTON",
+          "CHOOSE_TABLET_BUTTON",
+          "CHOOSE_LAPTOP_BUTTON",
+          "CHOOSE_CAMERA_BUTTON",
+          "CHOOSE_HEADPHONES_BUTTON",
+          "CHOOSE_SPARE_KEY_BUTTON",
+          "CHOOSE_COAT_BUTTON",
+          "CHOOSE_UMBRELLA_BUTTON",
+          "CHOOSE_OTHER_BUTTON"
+        ],
+        "OTHER_CATEGORY_SCREEN": [
+          "ENTER_ITEM_NAME_TXT",
+          "OTHER_NEXT_BUTTON"
+        ]
+      }
+    },
+    "ios": {
+      "screenname": {
+        "WELCOME_SCREEN": [
+          "SIGN_IN_BUTTON",
+          "GET_STARTED_BUTTON",
+          "BUY_A_TILE_LINK",
+          "BUY_A_TILE_BTN",
+          "BUY_A_TILE_SCREEN",
+          "CLOSE_WINDOW_BTN"
+        ],
+        "SIGN_IN_SCREEN": [
+          "EMAIL_ADDRESS_TEXT",
+          "PASSWORD_TEXT",
+          "SIGN_IN_BUTTON",
+          "FORGOT_PASSWORD_LINK",
+          "USED_TO_USE_FACEBOOK_BUTTON"
+        ],
+        "ADD_A_DEVICE_SCREEN": [
+          "TILE_BUTTON",
+          "I_DONT_HAVE_A_DEVICE_LINK",
+          "CLOSE_BUTTON",
+          "BUY_TILE_LINK",
+          "CHOOSE_A_PRODUCT_BUTTON",
+          "CHOOSE_A_PRODUCT_BACK_BUTTON",
+          "ACTIVATE_TILE_BACK_BUTTON",
+          "NEXT_BUTTON",
+          "NOT_WORKING_BUTTON",
+          "LOOKING_FOR_YOUR_TILE_BACK_BUTTON"
+        ],
+        "SELECT_A_DEVICE_SCREEN": [
+          "TILE_PRODUCT_BUTTON",
+          "STICKER_BUTTON"
+        ],
+        "SIGN_UP_SCREEN": [
+          "EMAIL_ADDRESS_TEXT",
+          "PASSWORD_TEXT",
+          "TERMS_AND_PRIVACY_POLICY_CHECK_BOX",
+          "RECEIVE_EMAIL_CHECK_BOX",
+          "SIGN_UP_BUTTON",
+          "SIGN_IN_LINK",
+          "TERMS_OF_SERVICE_LINK",
+          "PRIVACY_POLICY_LINK"
+        ],
+        "VERIFY_YOUR_EMAIL_SCREEN": [
+          "SKIP_LINK",
+          "DONT_HAVE_CODE_LINK",
+          "THIS_IS_NOT_MY_EMAIL_LINK",
+          "DIDNT_RECEIVE_EMAIL_LINK",
+          "ENTER_CODE_FIELD"
+        ],
+        "IOS_PERMISSION_SCREEN": [
+          "ALLOW_NOTIFICATION_BUTTON",
+          "DONT_ALLOW_NOTIFICATION_BUTTON",
+          "TAP_TO_ALLOW_LOCATION_ONCE_BUTTON",
+          "CLOSE_TAP_TO_ALLOW_LOCATION_ONCE_BUTTON",
+          "ALLOW_LOCATION_WHILE_USING_APP_BUTTON",
+          "ALLOW_LOCATION_ONCE_BUTTON",
+          "DONT_ALLOW_LOCATION_BUTTON",
+          "ALLOW_MOTION_AND_FITNESS_BUTTON",
+          "DONT_ALLOW_MOTION_AND_FITNESS_BUTTON",
+          "ALLOW_BLUETOOTH_BUTTON",
+          "DONT_ALLOW_BLUETOOTH_BUTTON",
+          "ALLOW_LOCATION_ALWAYS"
+        ],
+        "TILE_CARD_VIEW_SCREEN": [
+          "ADD_A_TILE_BUTTON",
+          "SETTINGS_BUTTON",
+          "TILE_CARD_BUTTON",
+          "MAP_BUTTON",
+          "NOTIFICATION_BUTTON",
+          "TILE_VIEW_BUTTON",
+          "FIND_BUTTON",
+          "MORE_OPTIONS_BUTTON"
+        ],
+        "TILE_DETAIL_SCREEN": [
+          "TILE_DETAIL_BACK_BUTTON",
+          "SWIPE_TILE_DRAWER_UP",
+          "LOCATION_BUTTON",
+          "SMART_ALERT_BUTTON",
+          "SIRI_SHORTCUTS_BUTTON",
+          "FIND_YOUR_PHONE_BUTTON",
+          "UNLIMITED_SHARING_BUTTON",
+          "TILE_RINGTONE_BUTTON",
+          "TILE_DEFAULT_VOLUME_BUTTONON",
+          "MORE_OPTIONS_BUTTON",
+          "HELP_BUTTON",
+          "SET_UP_SMART_ALERT_CLOSE_BUTTON"
+        ],
+        "LOCATION_HISTORY": [
+          "LOCATION_HISTORY_BACK_BUTTON",
+          "VIEW_30_DAY_HISTORY_BUTTON"
+        ],
+        "SMART_ALERT_SCREEN": [
+          "UNLOCK_TILE_PREMIUM_BUTTON",
+          "CLOSE_TILE_PREMIUM_BUTTON",
+          "ALLOW_MOTION_AND_FITNESS_BUTTON",
+          "ADD_LOCATION_LINK",
+          "SMART_ALERT_SCREEN_BACK_BUTTON"
+        ],
+        "EDIT_LOCATION_SCREEN": [
+          "EDIT_LOCATION_BACK_BUTTON",
+          "EDIT_DONE_BUTTON",
+          "ADD_A_PLACE_BUTTON"
+        ],
+        "ADD_LOCATION_SCREEN": [
+          "ADD_A_PLACE_BACK_BUTTON",
+          "ENTER_AN_ADDRESS_TEXT",
+          "SELECT_THE_LOCATION_BUTTON",
+          "USE_CURRENT_LOCATION_BUTTON",
+          "LOCATION_NEXT_BUTTON",
+          "SELECT_TYPE_OF_PLACE_BUTTON",
+          "LOCATION_NAME_TEXT",
+          "LOCATION_DONE_BUTTON"
+        ],
+        "SELECT_TYPE_OF_PLACE_DROP_DOWN_SCREEN": [
+          "HOME_BUTTON",
+          "WORK_BUTTON",
+          "SCHOOL_BUTTON",
+          "OTHER_BUTTON",
+          "PLACE_CANCEL_BUTTON"
+        ],
+        "SIRI_SHORTCUTS_SCREEN": [
+          "SIRI_CANCEL_BUTTON",
+          "SAVE_SHORTCUT_BUTTON",
+          "DELETE_SHORTCUT_BUTTON"
+        ],
+        "FIND_YOUR_PHONE_SCREEN": [
+          "FIND_YOUR_PHONE_BACK_BUTTON",
+          "TOOGLE_FIND_YOUR_PHONE"
+        ],
+        "UNLIMITED_SHARING_SCREEN": [
+          "UNLIMITIED_SHARING_BACK_BUTTON",
+          "SHARE_BUTTON",
+          "EMAIL_ADDRESS_TO_SHARE_TEXT",
+          "SHARE_WITH_CONTACTS_BUTTON",
+          "SHARE_A_LINK_BUTTON"
+        ],
+        "TILE_RING_TONE_SCREEN": [
+          "TILE_RING_TONE_BACK_BUTTON",
+          "SAVE_RING_TONE_BUTTON",
+          "TAP_TO_LISTEN_BUTTON"
+        ],
+        "TILE_DEFAULT_VOLUME_SCREEN": [
+          "MUTE_BUTTON",
+          "MEDIUM_BUTTON",
+          "LOUD_BUTTON",
+          "VOLUME_CANCEL_BUTTON"
+        ],
+        "MORE_OPTIONS_SCREEN": [
+          "MORE_OPTIONS_SCREEN_BACK_BUTTON",
+          "OPTIONS_NAME_BUTTON",
+          "CATEGORY_BUTTON",
+          "REPLACE_TILE_BUTTON",
+          "TRANSFER_TILE_BUTTON",
+          "HIDE_TILE_BUTTON"
+        ],
+        "TILE_NAME_SCREEN": [
+          "REMOVE_TILE_NAME_BUTTON",
+          "TILE_NAME_TEXT",
+          "TILE_NAME_BACK_BUTTON",
+          "SAVE_NAME_BUTTON"
+        ],
+        "CATEGORY_SCREEN": [
+          "CHOOSE_A_CATEGORY_BACK_BUTTON",
+          "SEARCH_TEXT",
+          "SELECT_A_CATEGORY_BUTTON"
+        ],
+        "REPLACE_SCREEN": [
+          "CONTINUE_BUTTON",
+          "REPLAE_CANCEL_BUTTON"
+        ],
+        "TRANSFER_TILE_SCREEN": [
+          "TRANSFER_OWNERSHIP_BACK_BUTTON",
+          "EMAIL_ADDRESS_TEXT",
+          "CONFIRM_ADDRESS_TEXT",
+          "TRANSFER_SUBMIT_BUTTON"
+        ],
+        "HELP_SCREEN": [
+          "HELP_BACK_BUTTON"
+        ],
+        "SETTINGS_SCREEN": [
+          "SETTINGS_CLOSE_BUTTON",
+          "FULL_NAME_BUTTON",
+          "CHANGE_PASSWORD",
+          "MANAGE_HIDDEN_TILES_BUTTON",
+          "SHOW_PHONE_IN_TILE_LIST_TOGGLE",
+          "SIGN_OUT_BUTTON"
+        ],
+        "FULL_NAME_SCREEN": [
+          "REMOVE_NAME_BUTTON",
+          "FULL_NAME_TEXT",
+          "FULL_NAME_BACK_BUTTON",
+          "FULL_SAVE_BUTTON"
+        ],
+        "CHANGE_PASSWORD": [
+          "CHANGE_PASSWORD_BACK_BUTTON",
+          "CURRENT_PASSWORD_TEXT",
+          "NEW_PASSWORD_TEXT",
+          "CONFIRM_PASSWORD_TEXT",
+          "SAVE_PASSWORD_TEXT"
+        ],
+        "MANAGE_HIDDEN_TILES": [
+          "MANAGE_HIDDEN_TILE_BACK_BUTTON",
+          "UNHIDE_BUTTON"
+        ],
+        "FORGOT_PASSWORD_SCREEN": [
+          "FORGOT_PASSWORD_BUTTON",
+          "FORGOT_PASSWORD_EMAIL_TEXT",
+          "FORGOT_PASSWORD_SEND_BUTTON",
+          "FORGOT_PASSWORD_BACK_BUTTON"
+        ]
+      }
+    },
+    "value": [
+      "xpath",
+      "id",
+      "name",
+      "USERNAME",
+      "PASSWORD",
+      "OLD_PASSWORD",
+      "NEW_PASSWORD",
+      "TILE_NAME",
+      "NEW_TILE_NAME",
+      "LONG_TILE_NAME",
+      "WRONG_PASSWORD",
+      "WRONG_USERNAME",
+      "SHARE_USERNAME",
+      "SHARE_INVALID_USERNAME",
+      "TRANSFER_USERNAME",
+      "TRANSFER_INVALID_USERNAME",
+      "TRANSFER_NOTVERIFIED_USERNAME",
+      "CATEGORY_OTHER_NAME",
+      "PHONE_TILE_NAME",
+      "ADD_LOCATION_NAME",
+      "FORGOT_PASSWORD_USERNAME"
+    ],
+    "Action": [
+      "button",
+      "expect",
+      "new_user",
+      "text_input",
+      "logout_button",
+      "username_text_input",
+      "swipe_up",
+      "scrollandcheck"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "asd": {
+    "1": {
+      "screen_name": "VERIFICATION_SCREEN",
+      "name": "VERIFY_CODE",
+      "action": "username_text_input",
+      "value": "wrong_username"
+    },
+    "stepcount": 1
+  },
+  "sdf": {
+    "1": {
+      "screen_name": "LOGIN_SCREEN",
+      "name": "EMAIL_PATH",
+      "action": "text_input",
+      "value": "name",
+      "cond_exec": "enabled"
+    },
+    "stepcount": 1
+  }
+}
